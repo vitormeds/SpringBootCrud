@@ -1,4 +1,4 @@
-package resources;
+package com.vitormendes.springbootcrud.resources;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import repository.ProdutoRepository;
-import models.Produto;;
+import com.vitormendes.springbootcrud.models.Produto;
+import com.vitormendes.springbootcrud.repository.ProdutoRepository;;
 
 @RestController
 @RequestMapping(value="/api")

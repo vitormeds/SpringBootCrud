@@ -1,4 +1,4 @@
-package models;
+package com.vitormendes.springbootcrud.models;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
